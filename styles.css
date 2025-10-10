@@ -5,7 +5,13 @@ body.hider-vault:not(.is-mobile) .workspace-split.mod-left-split .workspace-side
 }
 
 /* Hide tabs */
+/* Make tab bar 8px high as it is the click area to move the window */
+/* This also matches the window padding style */
 .hider-tabs .mod-root .workspace-tabs .workspace-tab-header-container {
+	height: 8px;
+}
+
+.hider-tabs .mod-root .workspace-tabs .workspace-tab-header-container * {
 	display: none;
 }
 
