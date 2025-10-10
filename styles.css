@@ -51,7 +51,7 @@ body.hider-vault:not(.is-mobile) .workspace-split.mod-left-split .workspace-side
 }
 
 /* Hide search count flair */
-.hider-search-counts .tree-item-flair:not(.tag-pane-tag-count) { 
+.hider-search-counts .tree-item-flair:not(.tag-pane-tag-count) {
 	display:none;
 }
 
